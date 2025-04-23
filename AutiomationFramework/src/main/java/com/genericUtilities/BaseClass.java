@@ -76,7 +76,7 @@ public class BaseClass {
 		System.out.println("----Browser launch Successfull----");
 		
 		//for listeners
-		sdriver=driver;
+		//sdriver=driver;
 	}
 	
 	@BeforeMethod(alwaysRun = true)

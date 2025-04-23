@@ -31,7 +31,8 @@ public class FileUtility {
 	
 	public static String readDataFromPropertyFile(String key) throws IOException 
 	{//C:\\Users\\Pritesh\\Downloads\\Selenium.properties
-		FileInputStream fis=new FileInputStream("D:\\Eclipse\\AutiomationFramework\\src\\test\\resources\\CommonData.properties");
+		FileInputStream fis=new FileInputStream("C:\\Users\\Pritesh\\git\\automationselegit\\AutiomationFramework\\src\\test\\resources\\CommonData.properties");
+				//"D:\\Eclipse\\AutiomationFramework\\src\\test\\resources\\CommonData.properties"
 		Properties prop=new Properties();
 		prop.load(fis);
 		String value = prop.getProperty(key);
