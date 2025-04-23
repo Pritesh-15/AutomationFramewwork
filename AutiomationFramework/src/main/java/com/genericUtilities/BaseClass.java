@@ -51,7 +51,7 @@ public class BaseClass {
 		
 		String URL = futil.readDataFromPropertyFile("url");
 		
-		driver=new ChromeDriver();
+		driver=new FirefoxDriver();
 		
 		
 		//for cross browser execution S 
